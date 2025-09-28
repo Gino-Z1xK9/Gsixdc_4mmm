@@ -1,0 +1,51 @@
+token: "ENV_TOKEN" # ENV_<Name> load from .env
+
+options:
+  location: "Bangkok" # default
+  tz: "Asia/Bangkok" # default
+
+voice:
+  data: "hy!" # default
+
+status:
+  delay: 4000 # default (Minimum 4000)
+  data:
+    - emoji: "🧡"
+      text: "TEXT 1"
+    - emoji: "💛"
+      text: "TEXT 2"
+    - emoji: "💚"
+      text: "TEXT 3"
+    - emoji: "💙"
+      text: "TEXT 4"
+    - emoji: "💜"
+      text: "TEXT 5"
+
+rpc:
+  delay: 4000 # default (Minimum 4000)
+  data:
+    type: "STREAMING" # STREAMING, PLAYING, LISTENING, WATCHING, COMPETING
+    #url: "https://www.youtube.com/watch?v=G9c0UGG6a1s"
+    timestamp:
+      #start: "2025-09-02T07:45:34.593Z" # ISO8601 | timestamp in milliseconds
+      #end: "2029-12-31T17:00:00.000Z" # ISO8601 | timestamp in milliseconds
+    name:
+      - "Name"
+    state:
+      - "State"
+    details:
+      - "Details"
+    assetsLargeText:
+      - "AssetsLargeText"
+    assetsSmallText:
+      - "AssetsSmallText"
+    assetsLargeImage:
+      - "https://img5.pic.in.th/file/secure-sv1/default_b2.gif"
+    assetsSmallImage:
+      - "https://img2.pic.in.th/pic/default_s2.gif"
+    buttonFirst:
+      - name: "Button First"
+        url: "https://discord.gg/XDPfrU4E9G"
+    buttonSecond:
+      - name: "Button Second"
+        url: "https://discord.gg/XDPfrU4E9G"
