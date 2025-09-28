@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "hyper-client": "file:hyper-client-0.4.5.tgz"
+  }
+}
